@@ -6,7 +6,7 @@ class Cat
  
 end
   
-  maru = Cat.new
+maru = Cat.new
 maru.name = "Maru"
 
 def meow
