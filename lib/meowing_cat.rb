@@ -4,12 +4,15 @@ class Cat
     @age = age
     @location = location
   end
+  
   def name=(name)
     @name = name
   end
+  
   def name
     @name
   end
+  
   def meow
     puts "Meow!"
   end
