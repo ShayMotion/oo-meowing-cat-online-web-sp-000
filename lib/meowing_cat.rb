@@ -1,19 +1,17 @@
-## code your solution here. 
 class Cat
-  
-  attr_reader :name
-  attr_writer :name
- 
-end
-  
-def name=(name)
+  def initialize(name, age, location)
+    @name = name
+    @age = age
+    @location = location
+  end
+  def name=(name)
     @name = name
   end
-  
-maru = Cat.new
-maru.name = "Maru"
+  def name
+    @name
+  end
+  def speak
+    puts "Meow!"
+  end
 
-def meow
-  puts "meow!"
 end
-  
