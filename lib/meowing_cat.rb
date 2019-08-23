@@ -10,7 +10,7 @@ class Cat
   def name
     @name
   end
-  def speak
+  def meow
     puts "Meow!"
   end
 
