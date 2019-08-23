@@ -4,3 +4,11 @@ class Cat
   attr_writer :name
 end
 
+def name
+    @name
+  end
+end
+
+def meow
+  puts "meow!"
+end
