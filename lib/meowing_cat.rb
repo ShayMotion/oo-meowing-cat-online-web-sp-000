@@ -1,9 +1,15 @@
 ## code your solution here. 
 class Cat
   
+  attr_reader :name
+  attr_writer :name
+ 
+end
   
-  jay_z = Person.new
-jay_z.name = "Shawn Carter"
-jay_z.name
-  => "Shawn Carter"
+  maru = Cat.new
+maru.name = "Maru"
+
+def meow
+  puts "meow!"
+end
   
