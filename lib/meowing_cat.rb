@@ -6,6 +6,10 @@ class Cat
  
 end
   
+def name=(name)
+    @name = name
+  end
+  
 maru = Cat.new
 maru.name = "Maru"
 
